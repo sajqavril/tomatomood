@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>产品设计</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/static/assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header-pd">
+
+					<!-- Logo -->
+						<h1><a href={% url 'product_design'%}>产品设计</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href={% url 'index'%}>情绪番茄</a></li>
+                                <li><a href={% url 'background_investigation'%}>社会调研</a></li>
+                                <li class="current"><a href={% url 'product_design'%}>产品设计</a></li>
+								
+								<li><a href={% url 'continuous_meaning'%}>持续意义</a></li>
+								{% comment %} <li><a href={% url 'tech_support'%}>技术支持</a></li> {% endcomment %}
+							</ul>
+						</nav>
+
+				</section> 
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+							<div class="col-8 col-12-medium">
+
+								<!-- Content -->
+									<article class="box post">
+										<header>
+											<h2>产品设计</h2>
+										</header>
+										<p>
+											我们从用户角度出发，以叙述故事的方式描述用户使用产品或接受服务的体验情况，以可视化图形的方式展示，从中发现用户在整个使用过程中的痛点和满意点，最后提炼出产品或服务中的优化点、设计的机会点。我们绘制了用户旅程图，深入了解家长在辅导作业时的看、想、听、做，从用户角度去考虑，设计了情绪番茄——一款结合线上app和线下实体小番茄机器人的产品。
+										</p>
+										<section>
+											<header>
+												<h3>用户旅程图</h3>
+											</header>
+											<p>
+												我们将家长辅导孩子作业的过程分为辅导前期、辅导中期、辅导后期、辅导结束四个阶段。在辅导前期，家长的情绪还较为冷静，希望可以顺利高效完成作业辅。但由于孩子出现了一些错误，家长开始担心孩子的学习情况，开始出现焦虑情绪；随着孩子不断犯错，家长的焦虑情绪开始加深，语气逐渐高亢；最后由于孩子不及时改正错误、坚持自己错误的做法而情绪爆发，开始打骂孩子；在辅导结束后，家长冷静下来后，往往会进行反思，再去和孩子道歉，但在下一次作业辅导时，还是无法改变情绪失控的情况。
+                                                
+											</p>
+											<p>
+												根据辅导作业的这一流程，我们在每个机会找出对应的痛点和机会点如图所示。
+                                                  <img src="/static/images/product_design1.png" alt="" />
+											</p>
+										</section>
+										<section>
+											<header>
+												<h3>功能模块设计</h3>
+											</header>
+                                            <p>根据心理学专家的建议，我们将对辅导前期、辅导中期、辅导结束后的三个阶段切入，进行产品的功能模块设计</p>
+											 <!-- Intro -->
+						          <section id="intro" class="container">
+							         <div class="row">
+                                        <div class="col-4 col-12-medium">
+                                            <section class="first">
+                                               
+                                                <header>
+                                                    <h4>辅导前期——小番茄机器人+app</h4>
+                                                </header>
+										      
+                                              <p>教育方法引领：对家长进行心理建设</p>
+                                              <p>番茄工作法：让孩子高效专注学习</p>
+                                              <p>情绪监测：通过语音、表情等识别家长情绪</p>
+									       </section>
+								        </div>
+								        <div class="col-4 col-12-medium">
+                                            <section class="middle">
+                                                
+                                                <header>
+                                                    <h4>辅导中期——小番茄机器人+app</h4>
+                                                </header>
+                                                <p>番茄工作法：让孩子高效专注学习</p>
+                                                <p>情绪监测：通过语音、表情等识别家长情绪</p>
+                                                <p>情绪干预：通过语音、动作等与家长进行交互</p>
+                                            </section>
+                                         </div>
+								        <div class="col-4 col-12-medium">
+                                            <section class="last">
+                                               
+                                                 <header>
+                                                    <h4>辅导结束——APP</h4>
+                                                </header>
+                                                <p>辅导总结:亲子对今日学习进行总结评价</p>
+                                                <p>交流借鉴：家长在社区交流分享</p>
+                                                <p>教育方法普及：开展家庭教育专题</p>
+                                            </section>
+								        </div>
+							         </div>
+                                    </section>
+				                    </section>
+									</article>
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<section class="box">
+										<a href="#" class="image featured"><img src="/static/images/product_design2.png" alt="" /></a>
+										<header>
+											<h3>产品形态图示</h3>
+										</header>
+										<p>产品是以移动端的app加上实体机器人的形式展现。app上集成了番茄工作法、辅导总结、家长社区、教育方法等模块；小番茄机器人上具有情绪检测、情绪干预等模块</p>
+										
+									</section>
+                                    <section class="box">
+										<a href="#" class="image featured"><video width="380" controls="controls" src="/static/images/demo.mp4" alt="" /></a>
+										<header>
+											<h3>产品demo演示</h3>
+										</header>
+										<p>该视频展示了在辅导前期、辅导中期、辅导结束后app和小番茄机器人的功能联动情况</p>
+										
+									</section>
+									
+							</div>
+						</div>
+					</div>
+				</section>
+			
+		</div>
+
+		<!-- Scripts -->
+			<script src="/static/assets/js/jquery.min.js"></script>
+			<script src="/static/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/static/assets/js/browser.min.js"></script>
+			<script src="/static/assets/js/breakpoints.min.js"></script>
+			<script src="/static/assets/js/util.js"></script>
+			<script src="/static/assets/js/main.js"></script>
+
+	</body>
+</html>

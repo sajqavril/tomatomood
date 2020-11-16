@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<!--
+	模板信息：
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	网页：情绪番茄
+	互联网思维与设计课程作业
+	第二组：孙嘉齐 罗雅兰
+-->
+<html>
+	<head>
+		<title>情绪番茄</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/static/assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<h1><a href={% url 'index'%}>情绪番茄</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href={% url 'index'%}>情绪番茄</a></li>
+								<li><a href={% url 'background_investigation'%}>社会调研</a></li>
+								<li><a href={% url 'product_design'%}>产品设计</a></li>
+								<li><a href={% url 'continuous_meaning'%}>持续意义</a></li>
+								{% comment %} <li><a href={% url 'tech_support'%}>技术支持</a></li> {% endcomment %}
+							</ul>
+						</nav>
+
+					<!-- Banner -->
+					{% comment %} 情绪番茄ppt头图 {% endcomment %}
+						<section id="banner">
+							<header>
+								<h2>Howdy. This is Dopetrope.</h2>
+								<p>A responsive template by HTML5 UP</p>
+							</header>
+						</section>
+					<!--sub-banner-->
+					{% comment %} 解决方案提出：app+机器人 {% endcomment %}
+						<section id="sub-banner">
+							<header>
+								<p>我们提出解决方案——</p>
+								<p></p>
+								<h2>“智能语音交互机器人+APP”</h2>
+								<p>打造立体空间，解决辅导作业的烦恼</p>
+							</header>
+						</section>
+						
+					
+					
+					<!-- Intro -->
+						<section id="intro" class="container">
+							<div class="row">
+								<div class="col-4 col-12-medium">
+									<section class="first">
+										{% comment %} <i class="icon solid featured fa-cog"></i> {% endcomment %}
+										
+										<image src="/static/images/tomato_clock.png"/>
+										
+										<header>
+											<h2>番茄工作法</h2>
+										</header>
+										<p>简单易行的时间管理方法，唤醒激励，减轻时间焦虑，增强专注度，提高效率</p>
+									</section>
+								</div>
+								<div class="col-4 col-12-medium">
+									<section class="middle">
+										{% comment %} <i class="icon solid featured alt fa-bolt"></i> {% endcomment %}
+										
+										<image src="/static/images/answer_staff.png"/>
+										
+										<header>
+											<h2>情绪管理</h2>
+										</header>
+										<p>立体情绪识别与提示干预，机器人物理、语音交互</p>
+									</section>
+								</div>
+								<div class="col-4 col-12-medium">
+									<section class="last">
+										{% comment %} <i class="icon solid featured alt2 fa-star"></i> {% endcomment %}
+										
+										<image src="/static/images/communication.png"/>
+										
+										<header>
+											<h2>社群生态</h2>
+										</header>
+										<p>建立家长之间的交流社群，引入孩子评价激励机制，以及亲子关系专家建议</p>
+									</section>
+								</div>
+							</div>
+							
+						</section>
+				<!--sub-banner-->
+				{% comment %} 解决方案提出：app+机器人 {% endcomment %}
+						<section id="main">
+						</p>
+						</section>
+						<section id="sub-banner">
+							<header>
+								<p>我们立足于当今亲子之间的问题——</p>
+								<p></p>
+								<h2>“不写作业母慈子孝，一写作业鸡飞狗跳”</h2>
+								<p>通过社会调研得到亲子画像</p>
+							</header>
+						</section>
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+							{% comment %} <div class="col-12">
+
+								<!-- Portfolio -->
+									<section>
+										<header class="major">
+											<h2>My Portfolio</h2>
+										</header>
+										<div class="row">
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="/static/images/pic02.jpg" alt="" /></a>
+													<header>
+														<h3>Ipsum feugiat et dolor</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="#" class="button alt">Find out more</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="/static/images/pic03.jpg" alt="" /></a>
+													<header>
+														<h3>Sed etiam lorem nulla</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="#" class="button alt">Find out more</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="/static/images/pic04.jpg" alt="" /></a>
+													<header>
+														<h3>Consequat et tempus</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="#" class="button alt">Find out more</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="/static/images/pic05.jpg" alt="" /></a>
+													<header>
+														<h3>Blandit sed adipiscing</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="#" class="button alt">Find out more</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="/static/images/pic06.jpg" alt="" /></a>
+													<header>
+														<h3>Etiam nisl consequat</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="#" class="button alt">Find out more</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="/static/images/pic07.jpg" alt="" /></a>
+													<header>
+														<h3>Dolore nisl feugiat</h3>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="#" class="button alt">Find out more</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+							<div class="col-12"> {% endcomment %}
+
+								<!-- Blog -->
+									<section>
+										<header class="major">
+											<h2>用户画像</h2>
+										</header>
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="/static/images/parents.png" alt="" /></a>
+													<header>
+														<h3>父母们</h3>
+														<p>80后，工作繁忙，压力大</p>
+													</header>
+													<image src="/static/images/heart.png" width=30px font-size=30px color=rgb(97,135,140)>  教育认同</image>
+													<p>绝大多数都会辅导孩子作业，并且普遍对此很头疼</p>
+													<image src="/static/images/flowers.png" width=30px font-size=30px color=rgb(97,135,140)>  情绪化</image>
+													<p>时常情绪化甚至有惩戒，无法解决问题，陷入恶性循环</p>
+													<image src="/static/images/rainbow.png" width=30px font-size=30px color=rgb(97,135,140)>  共同成长</image>
+													<p>认同教育孩子是与孩子一同成长的过程，希望找到控制情绪的方法 </p>
+													<footer>
+														<ul class="actions">
+															<li><a href="{% url 'background_investigation'%}" class="button icon solid fa-file-alt">社会调研</a></li>
+															<li><a href="{% url 'continuous_meaning'%}" class="button alt icon solid fa-comment">持续意义</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section class="box">
+													<a href="#" class="image featured"><img src="/static/images/children.png" alt="" /></a>
+													<header>
+														<h3>孩子们</h3>
+														<p>小学生，5-10岁，城市生活</p>
+													</header>
+													<image src="/static/images/sad.png" width=30px font-size=30px color=rgb(97,135,140)>  心里印象</image>
+													<p>“父母会发火，有时很吓人”</p>
+													{% comment %} <image src="/static/images/flash.png" width=30px font-size=30px color=rgb(97,135,140)>  父母主导</image>
+													<p>事后父母会安抚自己，原谅父母</p> {% endcomment %}
+													<image src="/static/images/broken_heart.png" width=30px font-size=30px color=rgb(97,135,140)>  很少发声</image>
+													<p>“希望爸爸妈妈不要那么凶”</p>
+													<image src="/static/images/settings.png" width=30px font-size=30px color=rgb(97,135,140)>  自我归因</image>
+													<p>事后父母会安抚自己，原谅父母；认同父母，错误在自己身上</p>
+													<footer>
+														<ul class="actions">
+															<li><a href="{% url 'background_investigation'%}" class="button icon solid fa-file-alt">社会调研</a></li>
+															<li><a href="{% url 'continuous_meaning'%}" class="button alt icon solid fa-comment">持续意义</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
+								<section>
+									<header>
+										<h2>联系我们</h2>
+									</header>
+									
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<p>
+												Tsinghua University<br />
+												Open Fiesta<br />
+												
+											</p>
+										</li>
+										<li>
+											<h3>Mail</h3>
+											<p><a href="#">tomatomood@xxx.com</a></p>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<p>(800) 000-0000</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-12">
+
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="/static/assets/js/jquery.min.js"></script>
+			<script src="/static/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/static/assets/js/browser.min.js"></script>
+			<script src="/static/assets/js/breakpoints.min.js"></script>
+			<script src="/static/assets/js/util.js"></script>
+			<script src="/static/assets/js/main.js"></script>
+			{% comment %} <script src="/static/assets/js/jquery/jQuery-2.2.0.min.js"></script>
+    		<script src="/static/assets/js/bootstrap/js/bootstrap.min.js"></script>
+    		<script src="/static/assets/js/index.js"></script> {% endcomment %}
+
+	</body>
+</html>

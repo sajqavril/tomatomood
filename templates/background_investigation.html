@@ -1,0 +1,424 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>情绪番茄</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/static/assets/css/main.css" />
+        <script src="https://cdn.bootcss.com/echarts/4.1.0.rc2/echarts.min.js"></script>
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/static/assets/js/dataTool.min.js"></script>
+        <script type="text/javascript"src="/static/assets/js/echarts.min.js"></script>
+        <script type="text/javascript" src="/static/assets/js/echarts.js"></script>
+        <script type="text/javascript" src="/static/assets/js/treeEcharts.js"></script>
+        <script type="text/javascript" src="/static/assets/js/treeEcharts-2.js"></script>
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header-bg">
+
+					<!-- Logo -->
+						<h1><a href={% url 'background_investigation'%}>社会调研</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href={% url 'index'%}>情绪番茄</a></li>
+								<li class="current"><a href={% url 'background_investigation'%}>社会调研</a></li>
+								<li><a href={% url 'product_design'%}>产品设计</a></li>
+								<li><a href={% url 'continuous_meaning'%}>持续意义</a></li>
+								{% comment %} <li><a href={% url 'tech_support'%}>技术支持</a></li> {% endcomment %}
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container" >
+
+						<!-- Content -->
+							<article class="box post">
+								
+								<header>
+									<h2>背景调研</h2>
+								</header>
+								<p>情绪番茄小组在多个方面进行了深入的背景调研，其中包括：20余篇文献调研以及大量社会统计数据调研；面向家长进行超过5h采访访谈时长；面向孩子的开展的超过4h访谈对话；面向心理专家的一对一访谈，我们将分别展示这几部分调研的具体内容。<br /></p>
+                                <img src="/static/images/background3.png" width="1000px" position="center" />
+							</article>
+                            <section id="main">
+                            <header class="major">
+                                <h2>文献调研以及社会统计数据</h2>
+                            </header> 
+                            </section>
+                            <article class="box post">
+                
+                                <p>通过对20余篇的文献调研和社会数据统计，我们可以得到以下结论：<br/ >
+                                90%的家长因为辅导作业而崩溃<br/ >
+                                70%的家长曾通过互联网寻找方法<br/ >
+                                40%的家长会在辅导作业中失控<br/ >
+                                2019年新增了12%的父母需要辅导至少两个孩子</p>
+                                <section id="main-perc">
+                                <img src="/static/images/percentage.png" width="900px" position="center">
+                                </section>
+							</article>
+                            <section id="main">
+                            <header class="major">
+                                <h2>“小学生家长辅导”现状调研</h2>
+                            </header> 
+                            </section>
+                            <article class="box post">
+								<p>情绪番茄小组开展了面向六所小学，对3000余名家长进行了调研，调研涉及了多个方面，其中包括：家长辅导作业时的行为、情绪以及自我认知情况；家长陪伴情况；家长的教育理念。针对这多个方面，我们进行了总结，并提出家长在辅导孩子作业时存在的几大问题</p>
+                                <!-- Intro -->
+						        <section id="intro" class="container">
+							         <div class="row">
+                                        <div class="col-4 col-12-medium">
+                                            <section class="first">
+                                                <i class="icon solid featured fa-cog"></i>
+                                                <header>
+                                                    <h4>家长情绪管理能力差</h4>
+                                                </header>
+										      <p>68%的家长辅导时暴躁难抑情绪</p>
+                                              <p>48%的家长能在事后反思，仍难以控制</p>
+									       </section>
+								        </div>
+								        <div class="col-4 col-12-medium">
+                                            <section class="middle">
+                                                <i class="icon solid featured alt fa-bolt"></i>
+                                                <header>
+                                                    <h4>家长有较好的认知意识</h4>
+                                                </header>
+                                                <p>97%的家长意识到了不良情绪对孩子成长的影响，开始主动学习如何引导孩子成长。</p>
+                                                <p>73%的家长意识到辅导作业中的矛盾对亲子关系、家庭氛围有不良影响</p>
+                                                
+                                                
+                                            </section>
+                                         </div>
+								        <div class="col-4 col-12-medium">
+                                            <section class="last">
+                                                <i class="icon solid featured alt2 fa-star"></i>
+                                                 <header>
+                                                    <h4>缺乏对孩子的心理关怀及有效沟通</h4>
+                                                </header>
+                                                <p>59%的孩子对家长的干扰、批评行为表现出忍气吞声、无奈接受</p>
+                                            </section>
+								        </div>
+							         </div>
+                                    
+				                </section>
+                            </article>
+                            <section id="main">
+                            <header class="major">
+                                <h2>心理学深度咨询</h2>
+                            </header> 
+                            </section>
+                            <article class="box post">   
+                                <section>
+      
+							<div class="col-8 col-12-medium">
+								<section>
+									
+									<ul class="dates">
+										<li>
+											<span class="date">辅导<br />现象</span>
+											<h3><a href="#">辅导作业⬅➡家长焦虑</a></h3>
+											<p>专家表示：家长的焦虑情绪在辅导作业时逐渐递增，并且相互影响的。当家长具有焦虑情绪时，辅导作业的效果会收到影响，而这会加深家长的焦虑情绪</p>
+										</li>
+										<li>
+											<span class="date">焦虑<br />原因</span>
+											<h3><a href="#">三大方面</a></h3>
+											<p>原生家庭高控制感；家长对孩子的期待与要求；家长自我实现的需求</p>
+										</li>
+										<li>
+											<span class="date">情绪<br />变化</span>
+											<h3><a href="#">隐隐焦虑→焦虑加重→情绪爆发</a></h3>
+											<p>情绪爆发是循序渐进的，是一个累积的过程，从一开始的担心、隐隐焦虑，再逐渐加重，最后情绪爆发</p>
+										</li>
+										<li>
+											<span class="date">干预<br />建议</span>
+											<h3><a href="#">尽早、直接、简单</a></h3>
+											<p>需要尽早对情绪进行干预，干预方式应该简单直接，如语音提示、表情提示等，需要在后期体系进行深度总结</p>
+										</li>
+										<li>
+											<span class="date">后期<br />建议</span>
+											<h3><a href="#">增加总结鼓励机制</a></h3>
+											<p>在辅导结束后，可以增加孩子对家长的评价模块、教育观念培养模块、家长对孩子鼓励机制模块等，以此调动孩子的参与度</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+                                    
+								</section>    
+							</article>
+
+					</div>
+				</section>
+                {% comment %} echarts {% endcomment %}
+                <section id="main">
+                    <header class="major">
+                        <h2>现状细粒度聚类分析</h2>
+                    </header>
+                    {% comment %} homework echarts {% endcomment %}
+                    <div class="container" >
+                        <article class="box post">
+                        <div id="main-echarts1" style="width: 1000px;height:600px;" position="center"></div>
+                        </article>
+                    </div>
+                </section>
+                <section id="main">
+                    <header class="major">
+                        <h2>竞品分析</h2>
+                    </header>
+                    {% comment %} prodcuct echarts {% endcomment %}
+                    <div class="container" >
+                        <article class="box post">
+                        <div id="main-echarts2" style="width: 1000px;height:600px;" position="center"></div>
+                        </article>
+                    </div>
+                </section>
+                <section id="main">
+                    <header class="major">
+                        <h2>情感溯源树</h2>
+                    </header>
+                    {% comment %} tree echarts {% endcomment %}
+                    <div class="container" >
+                        <article class="box post">
+                        <div id="main-echarts3" style="width: 1000px;height:600px;" position="center"></div>
+                        </article>
+                    </div>
+                </section>
+                <section id="main">
+                    <header class="major">
+                        <h2>产品溯源树</h2>
+                    </header>
+                    {% comment %} tree echarts2 {% endcomment %}
+                    <div class="container" >
+                        <article class="box post">
+                        <div id="main-echarts4" style="width: 1000px;height:600px;" position="center"></div>
+                        </article>
+                    </div>
+                </section>
+                {% comment %} <section id="main">
+                    <header class="major">
+                        <h2>各省情感分析</h2>
+                    </header>
+                    
+                    <div class="container" >
+                        <article class="box post">
+                        <div id="main-echarts4" style="width: 1000px;height:600px;" position="center">
+                        <img src="/static/images/review_map.gif" alt=""/></div>
+                        </article>
+                    </div>
+                </section> {% endcomment %}
+                <section id='main'>
+                <p>  </p>
+                </section>
+		</div>
+        <!-- Footer -->
+        <section id="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
+								<section>
+									<header>
+										<h2>联系我们</h2>
+									</header>
+									
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<p>
+												Tsinghua University<br />
+												Open Fiesta<br />
+												
+											</p>
+										</li>
+										<li>
+											<h3>Mail</h3>
+											<p><a href="#">tomatomood@xxx.com</a></p>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<p>(800) 000-0000</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-12">
+
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+		</div>
+
+        
+        
+    <script type="text/javascript">
+        var myChart1 = echarts.init(document.getElementById('main-echarts1'));
+        myChart1.showLoading();
+        $.get('/static/assets/js/les-miserables.gexf', function (xml) {
+            myChart1.hideLoading();
+
+            var graph = echarts.dataTool.gexf.parse(xml);
+            var categories = [];
+            for (var i = 0; i < 9; i++) {
+                categories[i] = {
+                    name: '类目' + i
+                };
+            }
+            graph.nodes.forEach(function (node) {
+                node.itemStyle = null;
+                node.value = node.symbolSize;
+                node.symbolSize /= 1.5;
+                node.label = {
+                    show: node.symbolSize > 30
+                };
+                node.category = node.attributes.modularity_class;
+            });
+            option = {
+                
+                tooltip: {},
+                legend: [{
+                    // selectedMode: 'single',
+                    data: categories.map(function (a) {
+                        return a.name;
+                    })
+                }],
+                animationDuration: 1500,
+                animationEasingUpdate: 'quinticInOut',
+                series : [
+                    {
+                        name: 'Homework',
+                        type: 'graph',
+                        layout: 'none',
+                        data: graph.nodes,
+                        links: graph.links,
+                        categories: categories,
+                        roam: true,
+                        focusNodeAdjacency: true,
+                        itemStyle: {
+                            borderColor: '#fff',
+                            borderWidth: 1,
+                            shadowBlur: 10,
+                            shadowColor: 'rgba(0, 0, 0, 0.3)'
+                        },
+                        label: {
+                            position: 'right',
+                            formatter: '{b}'
+                        },
+                        lineStyle: {
+                            color: 'source',
+                            curveness: 0.3
+                        },
+                        emphasis: {
+                            lineStyle: {
+                                width: 10
+                            }
+                        }
+                    }
+                ]
+            };
+            crossDomain: true;
+            myChart1.setOption(option);
+        }, 'xml');
+    </script>
+
+    <script type="text/javascript">
+        var myChart2 = echarts.init(document.getElementById('main-echarts2'));
+        myChart2.showLoading();
+        $.get('/static/assets/js/les-miserables-pro.gexf', function (xml) {
+            myChart2.hideLoading();
+
+            var graph = echarts.dataTool.gexf.parse(xml);
+            var categories = [];
+            for (var i = 0; i < 9; i++) {
+                categories[i] = {
+                    name: '类目' + i
+                };
+            }
+            graph.nodes.forEach(function (node) {
+                node.itemStyle = null;
+                node.value = node.symbolSize;
+                node.symbolSize /= 1.5;
+                node.label = {
+                    normal: {
+                        show: node.symbolSize > 10
+                    }
+                };
+                node.category = node.attributes.modularity_class;
+            });
+            option = {
+                tooltip: {},
+                legend: [{
+                    data: categories.map(function (a) {
+                        return a.name;
+                    })
+                }],
+                animationDurationUpdate: 1500,
+                animationEasingUpdate: 'quinticInOut',
+                series: [
+                    {
+                        name: 'Products',
+                        type: 'graph',
+                        layout: 'circular',
+                        circular: {
+                            rotateLabel: true
+                        },
+                        data: graph.nodes,
+                        links: graph.links,
+                        categories: categories,
+                        roam: true,
+                        label: {
+                            position: 'right',
+                            formatter: '{b}'
+                        },
+                        lineStyle: {
+                            color: 'source',
+                            curveness: 0.3
+                        }
+                    }
+                ]
+            };
+
+            myChart2.setOption(option);
+        }, 'xml');
+        window.onload = function(){
+	    treeData4.push(data4);
+	    drawTree4(treeData4);
+        treeData3.push(data3);
+	    drawTree3(treeData3);
+}
+    </script>
+
+    
+   
+		<!-- Scripts -->
+        <!-- 引入 echarts.js -->
+            <script src="https://cdn.bootcss.com/echarts/4.1.0.rc2/echarts.min.js"></script>
+            <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+            <script src="/static/assets/js/dataTool.min.js"></script>
+			<script src="/static/assets/js/jquery.min.js"></script>
+			<script src="/static/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/static/assets/js/browser.min.js"></script>
+			<script src="/static/assets/js/breakpoints.min.js"></script>
+			<script src="/static/assets/js/util.js"></script>
+			<script src="/static/assets/js/main.js"></script>
+
+	</body>
+</html>
